@@ -1,11 +1,11 @@
-.colorizer{
+.colorizer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.colorizer .box{
+.colorizer .box {
   width: 13rem;
   height: 13rem;
   margin: 1rem;
@@ -13,6 +13,15 @@
   border: 1px solid #521d1d;
   border-radius: 0.5rem;
 }
-.colorizer button{
+
+button {
   cursor: pointer;
+}
+
+.counter-box {
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  gap: 1rem;
+  margin-top: 1rem;
 }
